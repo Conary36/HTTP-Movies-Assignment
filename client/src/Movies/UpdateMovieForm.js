@@ -58,6 +58,7 @@ const UpdateMovieForm = (props)=> {
 
     return(
         <form onSubmit={handleSubmit}>
+        <h2>Edit a movie</h2>
             <input
                 type="text"
                 name="title"
