@@ -54,7 +54,7 @@ body {
   margin: 1rem auto;
 }
 .save-button {
-  position: absolute;
+  position: absolute; 
   top: 25px;
   right: 25px;
   border: 1px solid grey;
@@ -62,6 +62,18 @@ body {
   background-color: lightseagreen;
 }
 .save-button:hover {
+  background-color: green;
+  color: white;
+}
+.other-button {
+  
+  top: 25px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.other-button:hover {
   background-color: green;
   color: white;
 }
